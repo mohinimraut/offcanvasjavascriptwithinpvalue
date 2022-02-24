@@ -1,0 +1,43 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+.transform_css{
+    position: absolute;
+    top:0px;
+	height: 100vh;
+	width: 300px;
+	background: yellowgreen;
+	
+    transition: transform 3s;
+    transform: translateX(-300px);
+    
+    /* transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 3s; */
+    z-index: 1;
+}
+#menu1{
+    position: absolute;
+    z-index: 2;
+}
+
+.blackclass{
+   
+
+position: absolute;
+top:0px;
+left:0px;
+
+background-color: #ccc;
+height:100vh;
+width: 100%;
+/* transition: transform 3s;
+transition-delay: 5s; */
+transition-property: display 3s;
+display:none;
+
+}
+.main1{
+    position: relative; 
+}

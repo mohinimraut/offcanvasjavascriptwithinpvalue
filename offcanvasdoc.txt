@@ -1,0 +1,5 @@
+***
+1>input type button onclick var value kasi badalayachi
+2>transform translate transition time 
+3>display none apply some delay after some time using settimeout function.
+4>https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay

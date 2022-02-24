@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="offcanvas.css">
+</head>
+<body>
+    <div class="main1">
+<div class="blackclass">cc</div>
+   
+    <input type="button" onclick="openCanvas(this)" value="≡" id="menu1"></button>
+    <div class="transform_css">hello</div>
+</div>
+    <script type="text/javascript">
+function openCanvas(a){
+    if(a.value=='≡'){
+    a.value='X'
+    // alert(a.value)
+    document.getElementsByClassName("blackclass")[0].style.display = "block";
+
+
+        document.getElementsByClassName("transform_css")[0].style.transform = "translateX(0px)"
+}
+else if(a.value='X'){
+    a.value='≡'   
+    // Q a.value='Open' html entity kas use karnar
+    // display none kahi velanuntur honar
+    setTimeout("document.getElementsByClassName('blackclass')[0].style.display = 'none'", 2000);
+    // document.getElementsByClassName("blackclass")[0].style.display = "none";
+
+
+    document.getElementsByClassName("transform_css")[0].style.transform = "translateX(-300px)"
+
+}
+}
+    </script>
+</body>
+</html>
