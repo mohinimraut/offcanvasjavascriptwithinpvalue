@@ -3,3 +3,4 @@
 2>transform translate transition time 
 3>display none apply some delay after some time using settimeout function.
 4>https://developer.mozilla.org/en-US/docs/Web/CSS/transition-delay
+5>git error access=>https://www.youtube.com/watch?v=uFaYgSVzy3w
